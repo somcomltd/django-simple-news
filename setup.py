@@ -8,6 +8,7 @@ setup(name='django-simple-news',
       author_email='bwillmore@somcom.com',
       url='http://github.com/somcomltd/Django-simple-news',
       packages=['news','news.templates','news.templatetags'],
+	  include_package_data=True,
       classifiers=[
            'Development Status :: 5 - Production/Stable',
            'Environment :: Web Environment',
